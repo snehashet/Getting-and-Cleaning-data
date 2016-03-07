@@ -19,10 +19,10 @@ run_analysis<-function()
        
 #merge test and training data and extract only mean and std
        
-     meanstd_index <-grep("mean\\(\\)|std",features$featurelabel) 
+     meanstd_index <-grep("mean|std",features$featurelabel) 
     
      test<-rbind(X_test[,meanstd_index],X_train[,meanstd_index])
-     colnames(test)<- grep("mean\\(\\)|std",features$featurelabel,value = TRUE)
+     colnames(test)<- grep("mean|std",features$featurelabel,value = TRUE)
      Y<-rbind(Y_test[],Y_train[])
      colnames(Y)<- "activity"
      subject<-rbind(sub_train[],sub_test[])
