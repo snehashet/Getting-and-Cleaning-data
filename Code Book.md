@@ -4,77 +4,94 @@
 2. subjectid - The ID of the test subject
 
 # Measurements
-1.tBodyAccMeanX
-2.tBodyAccMeanY
-3.tBodyAccMeanZ
-4.tBodyAccStdX
-5.tBodyAccStdY
-6.tBodyAccStdZ
-7.tGravityAccMeanX
-8.tGravityAccMeanY
-9.tGravityAccMeanZ
-10.tGravityAccStdX
-11.tGravityAccStdY
-12.tGravityAccStdZ
-13.tBodyAccJerkMeanX
-14.tBodyAccJerkMeanY
-15.tBodyAccJerkMeanZ
-16.tBodyAccJerkStdX
-17.tBodyAccJerkStdY
-18.tBodyAccJerkStdZ
-19.tBodyGyroMeanX
-20.tBodyGyroMeanY
-21.tBodyGyroMeanZ
-22.tBodyGyroStdX
-23.tBodyGyroStdY
-24.tBodyGyroStdZ
-25.tBodyGyroJerkMeanX
-26.tBodyGyroJerkMeanY
-27.tBodyGyroJerkMeanZ
-28.tBodyGyroJerkStdX
-29.tBodyGyroJerkStdY
-30.tBodyGyroJerkStdZ
-31.tBodyAccMagMean
-32.tBodyAccMagStd
-33.tGravityAccMagMean
-34.tGravityAccMagStd
-35.tBodyAccJerkMagMean
-36.tBodyAccJerkMagStd
-37.tBodyGyroMagMean
-38.tBodyGyroMagStd
-39.tBodyGyroJerkMagMean
-40.tBodyGyroJerkMagStd
-41.fBodyAccMeanX
-42.fBodyAccMeanY
-43.fBodyAccMeanZ
-44.fBodyAccStdX
-45.fBodyAccStdY
-46.fBodyAccStdZ
-47.fBodyAccJerkMeanX
-48.fBodyAccJerkMeanY
-49.fBodyAccJerkMeanZ
-50.fBodyAccJerkStdX
-51.fBodyAccJerkStdY
-52.fBodyAccJerkStdZ
-53.fBodyGyroMeanX
-54.fBodyGyroMeanY
-55.fBodyGyroMeanZ
-56.fBodyGyroStdX
-57.fBodyGyroStdY
-58.fBodyGyroStdZ
-59.fBodyAccMagMean
-60.fBodyAccMagStd
-61.fBodyBodyAccJerkMagMean
-62.fBodyBodyAccJerkMagStd
-63.fBodyBodyGyroMagMean
-64.fBodyBodyGyroMagStd
-65.fBodyBodyGyroJerkMagMean
-66.fBodyBodyGyroJerkMagStd
+1.	subjectId
+2.	activityId
+3.	activityType
+4.	tBodyAcc-mean()-X
+5.	tBodyAcc-mean()-Y
+6.	tBodyAcc-mean()-Z
+7.	tBodyAcc-std()-X
+8.	tBodyAcc-std()-Y
+9.	tBodyAcc-std()-Z
+10.	tGravityAcc-mean()-X
+11.	tGravityAcc-mean()-Y
+12.	tGravityAcc-mean()-Z
+13.	tGravityAcc-std()-X
+14.	tGravityAcc-std()-Y
+15.	tGravityAcc-std()-Z
+16.	tBodyAccJerk-mean()-X
+17.	tBodyAccJerk-mean()-Y
+18.	tBodyAccJerk-mean()-Z
+19.	tBodyAccJerk-std()-X
+20.	tBodyAccJerk-std()-Y
+21.	tBodyAccJerk-std()-Z
+22.	tBodyGyro-mean()-X
+23.	tBodyGyro-mean()-Y
+24.	tBodyGyro-mean()-Z
+25.	tBodyGyro-std()-X
+26.	tBodyGyro-std()-Y
+27.	tBodyGyro-std()-Z
+28.	tBodyGyroJerk-mean()-X
+29.	tBodyGyroJerk-mean()-Y
+30.	tBodyGyroJerk-mean()-Z
+31.	tBodyGyroJerk-std()-X
+32.	tBodyGyroJerk-std()-Y
+33.	tBodyGyroJerk-std()-Z
+34.	tBodyAccMag-mean()
+35.	tBodyAccMag-std()
+36.	tGravityAccMag-mean()
+37.	tGravityAccMag-std()
+38.	tBodyAccJerkMag-mean()
+39.	tBodyAccJerkMag-std()
+40.	tBodyGyroMag-mean()
+41.	tBodyGyroMag-std()
+42.	tBodyGyroJerkMag-mean()
+43.	tBodyGyroJerkMag-std()
+44.	fBodyAcc-mean()-X
+45.	fBodyAcc-mean()-Y
+46.	fBodyAcc-mean()-Z
+47.	fBodyAcc-std()-X
+48.	fBodyAcc-std()-Y
+49.	fBodyAcc-std()-Z
+50.	fBodyAcc-meanFreq()-X
+51.	fBodyAcc-meanFreq()-Y
+52.	fBodyAcc-meanFreq()-Z
+53.	fBodyAccJerk-mean()-X
+54.	fBodyAccJerk-mean()-Y
+55.	fBodyAccJerk-mean()-Z
+56.	fBodyAccJerk-std()-X
+57.	fBodyAccJerk-std()-Y
+58.	fBodyAccJerk-std()-Z
+59.	fBodyAccJerk-meanFreq()-X
+60.	fBodyAccJerk-meanFreq()-Y
+61.	fBodyAccJerk-meanFreq()-Z
+62.	fBodyGyro-mean()-X
+63.	fBodyGyro-mean()-Y
+64.	fBodyGyro-mean()-Z
+65.	fBodyGyro-std()-X
+66.	fBodyGyro-std()-Y
+67.	fBodyGyro-std()-Z
+68.	fBodyGyro-meanFreq()-X
+69.	fBodyGyro-meanFreq()-Y
+70.	fBodyGyro-meanFreq()-Z
+71.	fBodyAccMag-mean()
+72.	fBodyAccMag-std()
+73.	fBodyAccMag-meanFreq()
+74.	fBodyBodyAccJerkMag-mean()
+75.	fBodyBodyAccJerkMag-std()
+76.	fBodyBodyAccJerkMag-meanFreq()
+77.	fBodyBodyGyroMag-mean()
+78.	fBodyBodyGyroMag-std()
+79.	fBodyBodyGyroMag-meanFreq()
+80.	fBodyBodyGyroJerkMag-mean()
+81.	fBodyBodyGyroJerkMag-std()
+82.	fBodyBodyGyroJerkMag-meanFreq()
+
 
 # activitylabel
-WALKING (value 1): subject was walking during the test
-WALKINGUPSTAIRS (value 2): subject was walking up a staircase during the test
-WALKINGDOWNSTAIRS (value 3): subject was walking down a staircase during the test
-SITTING (value 4): subject was sitting during the test
-STANDING (value 5): subject was standing during the test
-LAYING (value 6): subject was laying down during the test
+* WALKING (value 1): subject was walking during the test
+* WALKINGUPSTAIRS (value 2): subject was walking up a staircase during the test
+* WALKINGDOWNSTAIRS (value 3): subject was walking down a staircase during the test
+* SITTING (value 4): subject was sitting during the test
+* STANDING (value 5): subject was standing during the test
+* LAYING (value 6): subject was laying down during the test
